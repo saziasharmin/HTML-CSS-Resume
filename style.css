@@ -1,1 +1,37 @@
-/* Your CSS styles go here */
+html { 
+  background: url(http://www.bible101.org/ppt/images/samples/honorfatherb.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.content{
+    position:absolute;
+    top:110px;
+    left:800px;
+    color:red;
+    font-size: 20pt;
+}
+.content2{
+    padding-left:10px;margin-top:10px;
+}
+.content2 h1{
+    font-size:26pt;
+}
+.content3{
+    padding-left:150px;
+    margin-top:3px;
+}
+.content2 h1{
+    font-size:26pt;
+}
+#menu{
+    width:150px;
+    height:700px;
+    float:left;
+}
+#content{
+    float:left;
+    width:700px;
+    height:1800px;
+}
