@@ -1,49 +1,115 @@
+@media (min-width: 933px) and (max-width: 1399px) {
+
 html { 
-  background: url(http://www.bible101.org/ppt/images/samples/honorfatherb.jpg) no-repeat center center fixed; 
+  background: url(http://www.salgadosidastudio.com/images/cv_background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-.content{
-    position:absolute;
-    top:110px;
-    left:800px;
-    color:red;
-    font-size: 20pt;
+header, footer {
+   padding:1em;
+    color: white;
+    background-color: seagreen; 
+    text-align: center;
+
 }
-.content2{
-    padding-left:10px;margin-top:10px;
+div.img{
+text-align: right;
+border: 20%;
+margin-right:80px;
+margin-top: 55px;
+	
 }
-.content2 h1{
-    font-size:26pt;
+div.container {
+    width: 100%;
+    border: 2px solid #88C0F0;
+    border-left: 3px;
+    text-align: left;
+    margin-top: -240px;
+   
 }
-.content3{
-    padding-left:150px;
-    margin-top:3px;
 }
-.content2 h1{
-    font-size:26pt;
+   @media (min-width: 467px) and (max-width: 932px){
+
+  	header, footer {
+    padding:1em;
+    color: white;
+    background-color: #6F85D1;
+    text-align: center;
+
 }
-#menu{
-    width:150px;
-    height:700px;
-    float:left;
+div.img{
+	display: block;
+text-align: right;
+
+margin-top: 55px;
+	
 }
-#content{
-    float:left;
-    width:700px;
-    height:1800px;
+div.container {
+
+    width: 100%;
+    border: 2px solid #88C0F0;
+    border-left: 3px;
+    text-align: left;
+    margin-top: -240px;
+   
+}
 }
 
-@media screen and (max-width:959px){
-    
-    .content{
-        width:100%;
-    }
-    .content2{
-        width:70%;
-    }
-    
-    
+   @media (min-width: 0px) and (max-width: 466px){
+
+  	header, footer {
+    padding:1em;
+    color: white;
+    background-color: #8536D0;
+ 
+    text-align: center;
 }
+div.img{
+text-align: right;
+border: 20%;
+margin:50px;
+
+}
+div.container{
+text-align: left;
+border: 20%;
+margin-right:80px;
+margin-top: 60px;
+	
+}	
+}
+
+ul,li{color:black;
+	font-size: 20px;
+
+}
+p{
+	margin-left: 20px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+td, th {
+    border: 3px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+#mainBody{
+	background-color:#A11587;
+}
+h1{
+border-left: 6px solid #8536D0;
+    background-color: #74A3C4;
+font-size:150%;
+margin-left:10px;
+}
+h2,h3{
+	font-size:150%;
+margin-left:10px;
+
+}
+
